@@ -1,0 +1,32 @@
+{
+  "name": "hipopituitarism",
+  "version": "1.0.0",
+  "description": "web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start:dev": "nodemon app.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "marius seba",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.13",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.13"
+  }
+}
