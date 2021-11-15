@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5e8133a.chunk.css",
+    "main.js": "/static/js/main.61995876.chunk.js",
+    "main.js.map": "/static/js/main.61995876.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.71c5bbf3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.71c5bbf3.js.map",
+    "static/js/2.9f10be4a.chunk.js": "/static/js/2.9f10be4a.chunk.js",
+    "static/js/2.9f10be4a.chunk.js.map": "/static/js/2.9f10be4a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b5e8133a.chunk.css.map": "/static/css/main.b5e8133a.chunk.css.map",
+    "static/js/2.9f10be4a.chunk.js.LICENSE.txt": "/static/js/2.9f10be4a.chunk.js.LICENSE.txt",
+    "static/media/navigation.css": "/static/media/arrow.1366a198.svg",
+    "static/media/homepage.css": "/static/media/background-join.f0f1aa02.png",
+    "static/media/doctor.9fcabe6d.svg": "/static/media/doctor.9fcabe6d.svg",
+    "static/media/auth.css": "/static/media/dots.421d270a.png",
+    "static/media/fisa.3444cfbd.png": "/static/media/fisa.3444cfbd.png",
+    "static/media/help-1.8dd728f8.png": "/static/media/help-1.8dd728f8.png",
+    "static/media/help-2.86702560.png": "/static/media/help-2.86702560.png",
+    "static/media/logo.b2e5a01e.svg": "/static/media/logo.b2e5a01e.svg",
+    "static/media/logo.d11deff9.png": "/static/media/logo.d11deff9.png",
+    "static/media/poeple.8d4492ac.png": "/static/media/poeple.8d4492ac.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71c5bbf3.js",
+    "static/js/2.9f10be4a.chunk.js",
+    "static/css/main.b5e8133a.chunk.css",
+    "static/js/main.61995876.chunk.js"
+  ]
+}

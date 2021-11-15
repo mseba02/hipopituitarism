@@ -1,0 +1,61 @@
+.homepage{
+    background: url(../../images/background-join.png) 80% 50% no-repeat #76b4b5;
+    height: 550px;
+    background-size: 402px;
+}
+.homepage__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.homepage__subTitle{
+    color: #fff;
+    font-size: 34px;
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.homepage__paragraph{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.homepage__form{
+    margin-top: 30px;
+}
+.homepage__form input{
+    border-radius: 5px;
+    height: 38px;
+    border-color: #fff;
+}
+.homepage__form button{
+    margin-top: 15px;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #42556c;
+    margin-bottom: 30px;
+}
+.about-us__img{
+    width: 650px;
+    margin: auto;
+    display: block;
+}
+.about-us__p{
+    font-size: 16px;
+    color: #42556c;
+    line-height: 1.5;
+}
+.about-us__p2{
+    font-size: 14px;
+    color: #666;
+}
+.help-you{
+    background: #f5f5f5;
+}

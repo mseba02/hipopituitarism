@@ -1,0 +1,77 @@
+.navigation__level1 li{
+    position: relative;
+    padding-right: 30px;
+    height: 100%;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    color: #4c5a6b;
+    cursor: pointer;
+}
+.navigation__level1 li:hover{
+    color: #79bcbd;
+}
+.navigation__level2{
+    display: none;
+    padding: 5px 0;
+    position: absolute;
+    background: #fff;
+    width: 250%;
+    left: -50px;
+    border: 1px solid #eee;
+    border-top: 0;
+    top: 43px;
+}
+.navigation__level2 li{
+    margin-left: 0;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+}
+.navigation__level2 li:last-child{
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.navigation__level1{
+    margin-top: 24px;
+}
+.navigation__level1 li:hover .navigation__level2{
+    display: block;
+}
+.navigation__level1 .navigation__level1--noLink{
+    font-weight: 500;
+    font-size: 12px;
+    padding-right: 0;
+    cursor: default;
+}
+.navigation__level1--noLink span {
+     color: #76b4b5;
+    font-weight: 700;
+ }
+.navigation__level1 .navigation__level1--noLink:hover{
+    color: #42556c;
+}
+.has-child:after{
+    content: "";
+    position: absolute;
+    transition: all 0.2s ease;
+    width: 10px;
+    height: 10px;
+    background: url("../../../images/arrow.svg") center no-repeat;
+    top: 5px;
+    right: 17px;
+    background-size: 9px;
+}
+.has-child:hover:after{
+    transform: rotate(-180deg);
+}
+.help-you__img{
+    max-width: 200px;
+    margin: 25px auto 0;
+    display: block;
+}
+.help-you__img2{
+    max-width: 220px;
+}
